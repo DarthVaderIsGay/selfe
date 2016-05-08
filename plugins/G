@@ -40,12 +40,12 @@ local function run(msg, matches)
 			.."🕆Created At: "..jdat.created_at.."\n"
 			.."🔩Updated At: "..(jdat.updated_at or "-----").."\n"
 			.."🖋Language: "..(jdat.language or "-----").."\n"
-			.."size: "..jdat.size.."\n"
-			.."ستاره ها: "..jdat.stargazers_count.."\n"
-			.."بازديدها: "..jdat.watchers_count.."\n"
-			.."انشعابات: "..jdat.forks_count.."\n"
-			.."مشترکين: "..jdat.subscribers_count.."\n"
-			.."درباره ي پروژه:\n"..(jdat.description or "-----").."\n"
+			.."📉Size: "..jdat.size.."\n"
+			.."⛤Stars: "..jdat.stargazers_count.."\n"
+			.."⚉Watchers: "..jdat.watchers_count.."\n"
+			.."🔖Forks: "..jdat.forks_count.."\n"
+			.."👥Subscribers: "..jdat.subscribers_count.."\n"
+			.."📃Description:\n"..(jdat.description or "-----").."\n"
 	end
 end
 
